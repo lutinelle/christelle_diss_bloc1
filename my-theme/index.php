@@ -6,6 +6,7 @@ get_header()
 
 <?php get_search_form() ?>
 
+
 <!-- articles -->
 <?php $the_query = new WP_Query( array( 'post_type' => 'post','posts_per_page' => -1 ) ); ?>
 <?php if ( $the_query->have_posts() ) : ?>
