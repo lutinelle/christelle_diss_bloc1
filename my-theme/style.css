@@ -8,3 +8,42 @@ Requires PHP: 5.2.4
 Description: my theme for bloc 1
 Author: Christelle Diss
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 1.25rem;
+}
+.card{
+    background-color: #E0E5F7;
+}
+
+.card-title, h2, h1{
+    color: #FF33CC;
+    font-weight: bold;
+}
+
+.footer{
+    font-weight: bold;
+    list-style: none;
+}
+
+.social{
+    font-size: 35px;
+}
+
+.link{
+    list-style: none;
+    font-size: 16px;
+    font-weight:lighter;
+
+}
+.primary, .btn-primary{
+    background-color: #3740FB;
+    border-color:#3740FB;
+}
