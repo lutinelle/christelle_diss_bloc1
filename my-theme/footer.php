@@ -1,8 +1,8 @@
 
 <!-- footer -->
-<div class="footer ">
+<div class="footer container-fluid">
     <div class="row text-secondary text-center justify-content-center " >
-        <div class="col-3 fw-bold border-bottom border-secondary">
+        <div class="col  fw-bold border-bottom border-secondary">
             <p> N'hésitez pas à partager cette page:</p>
 
             <div class="social ">

@@ -8,8 +8,10 @@ get_header()
 
 
 <!-- articles -->
+
 <?php $the_query = new WP_Query( array( 'post_type' => 'post','posts_per_page' => -1 ) ); ?>
 <?php if ( $the_query->have_posts() ) : ?>
+<div class="container-fluid">
     <div class="row row-cols-1 row-cols-sm-2  row-cols-md-3 g-4 my-3 mx-3">
         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
         <?php if (get_the_ID() != 41 && get_the_ID() != 39 ) : ?>
@@ -26,6 +28,7 @@ get_header()
             <?php endif; ?>
         <?php endwhile; ?>
     </div>
+</div>
 <?php endif; ?>
 
 
