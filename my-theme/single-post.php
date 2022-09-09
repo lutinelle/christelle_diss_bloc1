@@ -3,7 +3,7 @@
 ?>
 <?php get_header()?>
 <div class="container-fluid">
-    <div class="row">
+    <div class="row justify-content-center">
             <div class="col col-lg-6">
                 <div class="card">
                     <img src=<?php the_post_thumbnail_url(); ?> class="card-img-top" alt="Vaccin">
