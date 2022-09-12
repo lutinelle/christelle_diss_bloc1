@@ -47,3 +47,12 @@ h2{
     background-color: #3740FB;
     border-color:#3740FB;
 }
+.info, .btn-info{
+    background-color: #E0E5F7;
+    border-color:#E0E5F7;
+}
+.btn-info:hover, .btn-info:focus {
+
+    background-color: #9DC3E6;
+    border-color: #9DC3E6;
+}
