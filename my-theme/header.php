@@ -16,10 +16,11 @@
 <header class="container-fluid">
     <div class="row">
         <div class="col border-bottom border-secondary">
-            <img src="http://wp.localhost/wp-content/uploads/2022/09/logo-gouv.png" alt="logo gouvernement" height="80" >
+            <img src="<?= wp_get_attachment_image_url(22) ?>" alt="logo gouvernement" height="80" >
 
         </div>
     </div>
+
 
     <!-- menu -->
     <div class="row">
