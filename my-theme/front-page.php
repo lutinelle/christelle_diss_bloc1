@@ -9,10 +9,11 @@ get_header()
 
 
     <!-- articles -->
+<div class="container-fluid">
 
 <?php $the_query = new WP_Query( array( 'post_type' => 'post','posts_per_page' => -1 ) ); ?>
 <?php if ( $the_query->have_posts() ) : ?>
-    <div class="container-fluid">
+    
         <div class="row row-cols-1 row-cols-sm-2  row-cols-md-3 g-4 my-3 mx-3">
             <?php $article_nb=0; ?>
             <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
@@ -34,12 +35,17 @@ get_header()
 
             <?php endwhile; ?>
         </div>
-    </div>
+
 
 <?php endif; ?>
 
-    <a href="<?php echo esc_url( get_page_link( 140 ) ); ?>">Tous les articles</a>
+        <div class="row my-3 mx-3">
+            <div class="col">
+                <a href="<?php echo esc_url( get_page_link( 140 ) ); ?>">Tous les articles</a>
+            </div>
+        </div>
 
+</div>
 
 <?php
 get_footer()

@@ -29,7 +29,7 @@ get_header()
 
             <?php endwhile; ?>
         </div>
-        <div class="row">
+        <div class="row my-3 mx-3">
             <div class="col">
                 <?php the_posts_pagination(); ?>
             </div>
