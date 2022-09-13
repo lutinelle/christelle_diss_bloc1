@@ -4,6 +4,7 @@ $path.="wp-load.php";
 
 require_once ($path);
 
+
 if (isset($_POST['submit_btn']))
 {
     $data=array(
@@ -14,7 +15,11 @@ if (isset($_POST['submit_btn']))
     );
     $table_name = 'inscription';
     $wpdb->insert($table_name, $data );
-    wp_redirect('http://wp.localhost/merci');
+    $redirect = get_site_url()."/merci";
+    
+    wp_redirect($redirect);
+    
+
 }
 
 

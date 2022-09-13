@@ -25,6 +25,7 @@ function form_plugin()
     $content .= '<label for="inputNb" class="form-label">Numero de securité social</label>';
     $content .= '<input type="text" class="form-control" id="inputNb" name ="nb">';
     $content .= '</div>';
+    $content .= '<div class="mb-3 text-center">';
     $content .= '<input type="submit" class="btn btn-info" name="submit_btn" value="Soumettre">';
     $content .= '</div>';
     $content .= '</form>';
