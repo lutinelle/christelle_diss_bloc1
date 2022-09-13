@@ -47,3 +47,7 @@ add_action('wp_enqueue_scripts','mytheme_register_assets');
 add_action('after_setup_theme', 'mytheme_support');
 add_filter('nav_menu_css_class','mytheme_menu_class');
 add_filter('nav_menu_link_attributes','mytheme_menu_li');
+
+
+
+

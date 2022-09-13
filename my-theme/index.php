@@ -9,19 +9,13 @@ get_header()
 
 <?php get_search_form() ?>
 
-
-
-
     <!-- articles -->
-
 
 <?php if ( have_posts() ) : ?>
     <div class="container-fluid">
         <div class="row row-cols-1 row-cols-sm-2  row-cols-md-3 g-4 my-3 mx-3">
 
             <?php while ( have_posts() ) : the_post(); ?>
-
-
 
                 <div class="col">
                     <div class="card">
@@ -33,9 +27,6 @@ get_header()
                     </div>
                 </div>
 
-
-
-
             <?php endwhile; ?>
         </div>
         <div class="row">
@@ -46,9 +37,6 @@ get_header()
     </div>
 
 <?php endif; ?>
-
-
-
 
 <?php
 get_footer()
