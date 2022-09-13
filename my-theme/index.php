@@ -5,7 +5,7 @@
 get_header()
 ?>
 
-    <!-- can add search on worpress? -->
+    <!-- search -->
 
 <?php get_search_form() ?>
 
@@ -20,7 +20,7 @@ get_header()
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
-                            <h1 class="card-title">POINT DE SITUATION</h1>
+                            <h1 class="card-title"><?php the_title() ?></h1>
                             <p class="card-text"><?php the_content('suite')?></p>
                         </div>
                         <img src=<?php the_post_thumbnail_url(); ?> class="card-img-bottom" alt="image article">
