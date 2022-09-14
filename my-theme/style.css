@@ -12,6 +12,14 @@ Author: Christelle Diss
 body, pre{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+
+}
+body, .navbar-nav, .card-body {
+    --bs-nav-link-color: #474646;
+    color: #474646;
+}
+a {
+    color: #034EA2;
 }
 h1{
     font-size: 1.5rem;
@@ -20,7 +28,7 @@ h2{
     font-size: 1.25rem;
 }
 h3, .to-notice{
-    color: #707070;
+    color: #474646;
     font-size: 1.25rem;
 
 }
@@ -32,7 +40,7 @@ h3{
 }
 
 .card-title, h2, h1{
-    color: #FF3392;
+    color: #EC0C74;
     font-weight: bold;
 }
 
@@ -54,6 +62,7 @@ h3{
 .primary, .btn-primary{
     background-color: #034EA2;
     border-color:#034EA2;
+    --bs-btn-bg:#034EA2;
 }
 .info, .btn-info{
     background-color: #9DC3E6;

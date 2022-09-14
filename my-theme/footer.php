@@ -1,7 +1,7 @@
 
 <!-- footer -->
 <div class="footer container-fluid">
-    <div class="row text-secondary text-center justify-content-center " >
+    <div class="row text-center justify-content-center " >
         <div class="col  fw-bold border-bottom border-secondary">
             <p> N'hésitez pas à partager cette page:</p>
 
