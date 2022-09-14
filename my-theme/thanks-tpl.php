@@ -9,8 +9,8 @@
         <div class="col col-lg-6">
             <div class="card">
                 <div class="card-body text-center">
-                    <h1 class="card-title"> Merci</h1>
-                    <p class="card-text">Votre inscription a bien été prise en compte, grace a elle vous allez sauver des vies!</p>
+                    <h1 class="card-title"> <?php the_title() ?></h1>
+                    <p class="card-text"><?php the_content() ?></p>
                 </div>
             </div>
         </div>

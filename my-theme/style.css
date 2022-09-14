@@ -9,7 +9,7 @@ Description: my theme for bloc 1
 Author: Christelle Diss
 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
-body {
+body, pre{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
